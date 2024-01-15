@@ -228,12 +228,157 @@ main {
     font-weight: 800;
     margin-top: 2rem;
 }
+
 .popular-tour-image {
     width: 100%;
 }
+
 /* Popular tours ends */
 
+/* Destination styles*/
+.destination-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+}
 
+.destination-title {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-top: 5rem;
+    margin-bottom: 0px;
+}
+
+.destination-description {
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 1.5rem;
+}
+
+.mal-in {
+    display: flex;
+    gap: 20px;
+}
+
+.maldives {
+    width: 573px;
+    height: 300px;
+    border-radius: 16px;
+    background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('images/Rectangle 5.png');
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Mulish;
+    font-size: 1.75rem;
+    font-weight: 800;
+}
+
+.indonesia {
+    width: 573px;
+    height: 300px;
+    border-radius: 16px;
+    background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('images/Rectangle 8.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 1.75rem;
+    font-weight: 800;
+}
+
+.america {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 374px 474px 274px;
+    gap: 20px;
+}
+
+.srilanka {
+    height: 286px;
+    background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('images/Rectangle 6.png');
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 1.75rem;
+    font-weight: 800;
+}
+
+.north-america {
+    height: 286px;
+    background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('images/Rectangle 7.png');
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 1.75rem;
+    font-weight: 800;
+}
+
+.kashmir {
+    height: 286px;
+    background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('images/Rectangle 9.png');
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 1.75rem;
+    font-weight: 800;
+}
+
+.bengal {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.bangladesh {
+    width: 473px;
+    height: 300px;
+    background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('images/Rectangle 11.png');
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 1.75rem;
+    font-weight: 800;
+}
+
+.bandarban {
+    width: 673px;
+    height: 300px;
+    background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('images/Rectangle 10.png');
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 1.75rem;
+    font-weight: 800;
+}
+
+/* Destination styles ends*/
 /* Main section ends */
 
 /*--------------------------------Responsive style--------------------------*/
@@ -346,17 +491,95 @@ main {
     main {
         max-width: 100%;
     }
+
     /* Popular tour starts */
     .popular-tour-section {
         margin-top: 0;
         display: flex;
         flex-direction: column;
     }
+
     .popular-tour-image {
         max-width: 100%;
         margin: 0 auto;
     }
+
     /* Popular tour ends */
+
+    /* Destination section starts */
+    .destination-content {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .destination-description {
+        max-width: 100%;
+    }
+
+    .mal-in {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .maldives {
+        width: 100%;
+        height: 250px;
+        background-position: center;
+    }
+
+    .indonesia {
+        width: 100%;
+        height: 250px;
+        background-position: center;
+    }
+
+    .america {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .srilanka {
+        width: 100%;
+        height: 250px;
+        background-size: cover;
+        border-radius: 2rem;
+    }
+
+    .north-america {
+        width: 100%;
+        height: 250px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 2rem;
+    }
+
+    .kashmir {
+        width: 100%;
+        height: 250px;
+        background-position: center;
+        background-size: cover;
+        border-radius: 2rem;
+    }
+    .bengal {
+        display: flex;
+        flex-direction: column;
+    }
+    .bangladesh {
+        width: 100%;
+        height: 250px;
+        background-position: center;
+        background-size: cover;
+        border-radius: 2rem;
+    }
+    .bandarban {
+        width: 100%;
+        height: 250px;
+        background-position: center;
+        background-size: cover;
+        border-radius: 2rem;
+    }
+    /* Destination section ends */
     /* Main section ends */
 }
 
@@ -408,12 +631,72 @@ main {
     .find-now {
         width: 100%;
     }
-    main{
+
+    main {
         max-width: 100%;
     }
+
     .popular-tour-section {
         width: 100%;
         display: flex;
         flex-direction: column;
     }
+
+    /* Destination section starts */
+    .destination-content {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .destination-description {
+        max-width: 100%;
+    }
+
+    .mal-in {
+        display: flex;
+    }
+
+    .maldives {
+        width: 50%;
+        height: 250px;
+        background-position: center;
+    }
+
+    .indonesia {
+        width: 50%;
+        height: 250px;
+        background-position: center;
+    }
+
+    .america {
+        display: flex;
+        /*flex-direction: column;*/
+    }
+
+    .srilanka {
+        width: 35%;
+        height: 250px;
+        background-size: cover;
+        border-radius: 2rem;
+    }
+
+    .north-america {
+        width: 40%;
+        height: 250px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 2rem;
+    }
+
+    .kashmir {
+        width: 25%;
+        height: 250px;
+        background-position: center;
+        background-size: cover;
+        border-radius: 2rem;
+    }
+
+    /* Destination section ends */
+    /* Main section ends */
 }
