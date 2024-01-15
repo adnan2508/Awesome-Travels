@@ -175,8 +175,62 @@ input {
 }
 
 /* banner style ends */
-
 /*Header style ends*/
+
+/* Main section starts */
+main {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/* Popular tour styles */
+.popular-tour-section {
+    margin-top: 5rem;
+    display: flex;
+    gap: 60px;
+}
+
+.popular-tour-title {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.popular-tour-description {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.popular-tour-description-list {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    width: 174px;
+    height: 52px;
+    border: none;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin-top: 2rem;
+}
+
+/* Popular tours ends */
+/* Main section ends */
 
 /*--------------------------------Responsive style--------------------------*/
 @media screen and (max-width: 600px) {
