@@ -228,8 +228,12 @@ main {
     font-weight: 800;
     margin-top: 2rem;
 }
-
+.popular-tour-image {
+    width: 100%;
+}
 /* Popular tours ends */
+
+
 /* Main section ends */
 
 /*--------------------------------Responsive style--------------------------*/
@@ -337,6 +341,23 @@ main {
     }
 
     /* banner style ends */
+
+    /* Main section starts*/
+    main {
+        max-width: 100%;
+    }
+    /* Popular tour starts */
+    .popular-tour-section {
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .popular-tour-image {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    /* Popular tour ends */
+    /* Main section ends */
 }
 
 /* Tab device */
@@ -386,5 +407,13 @@ main {
 
     .find-now {
         width: 100%;
+    }
+    main{
+        max-width: 100%;
+    }
+    .popular-tour-section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
     }
 }
