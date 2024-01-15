@@ -7,7 +7,6 @@
 /*Header style */
 header {
     max-width: 1170px;
-    border: 1px solid black;
     margin: 0 auto;
     /*padding: 30px 100px;*/
 }
@@ -66,7 +65,12 @@ nav {
     font-weight: 700;
 }
 
+.hamburger {
+    display: none;
+}
+
 /* nav style ends */
+
 /* banner style starts */
 .banner {
     background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('images/banner image.png');
@@ -170,3 +174,109 @@ input {
 
 /* banner style ends */
 /*Header style ends*/
+
+/*--------------------------------Responsive style--------------------------*/
+@media screen and (max-width: 600px) {
+
+    /*header style starts*/
+    header {
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    /* nav style starts */
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo {
+        display: flex;
+        gap: 10px;
+    }
+
+    .logo img {
+        width: 28px;
+        height: 33px;
+    }
+
+    .awesome {
+        color: #131318;
+        font-family: Mulish;
+        font-size: 21.543px;
+        font-weight: 800;
+    }
+
+    .travels {
+        color: #FF5400;
+        font-family: Mulish;
+        font-size: 21.543px;
+        font-weight: 800;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .nav-item {
+        position: fixed;
+        left: 100%;
+    }
+
+    /*nav style ends*/
+
+    /* banner style starts */
+    .banner {
+        max-width: 100%;
+        height: 483px;
+        background-attachment: fixed;
+        background-position: center;
+        margin-top: 15px;
+    }
+
+    .banner-title {
+        color: #FFF;
+        font-family: Mulish;
+        font-size: 22px;
+        font-weight: 800;
+        margin-bottom: 0px;
+    }
+
+    .banner-description {
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 0.87rem;
+        font-weight: 400;
+        margin-top: 8px;
+        margin-bottom: 30px;
+    }
+
+    .banner-container {
+        display: flex;
+        width: 287px;
+        padding: 16px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.30);
+    }
+
+    select,
+    input {
+        width: 285px;
+        height: 52px;
+        border-radius: 8px;
+        background: #FFF;
+    }
+
+    .find-now {
+        width: 285px;
+        height: 52px;
+        border-radius: 8px;
+        background: #FF5400;
+    }
+    /* banner style ends */
+}
