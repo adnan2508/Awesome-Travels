@@ -931,6 +931,935 @@ footer img {
 
 
 /*--------------------------------Responsive style--------------------------*/
+/* -----------------Laptop------------------*/
+@media screen and (min-width: 992px){
+    /*Header style */
+header {
+    max-width: 1170px;
+    margin: 0 auto;
+    /*padding: 30px 100px;*/
+}
+
+/* nav style starts */
+.logo img {
+    width: 48px;
+    height: 56px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.awesome {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+
+.travels {
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item {
+    display: flex;
+    gap: 44px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #424247;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1.12rem;
+    font-weight: 400;
+}
+
+.nav-item .home {
+    color: #FF5400;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1.12rem;
+    font-weight: 700;
+}
+
+.hamburger {
+    display: none;
+}
+
+/* nav style ends */
+
+/* banner style starts */
+.banner {
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('images/banner image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.banner-title {
+    margin-bottom: 0px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.banner-description {
+    margin-top: 24px;
+    margin-bottom: 48px;
+    max-width: 676px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.banner-container {
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    margin-top: 0px;
+}
+
+select {
+    width: 174px;
+    height: 52px;
+    border: 0px;
+    border-radius: 8px;
+    border-right: 15px solid #FFF;
+    background: #FFF;
+    padding: 16px;
+    color: rgba(19, 19, 24, 0.50);
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+input {
+    color: rgba(19, 19, 24, 0.50);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    border: 0px;
+    border-radius: 8px;
+    background: #FFF;
+    height: 50px;
+}
+
+::-webkit-input-placeholder {
+    padding: 16px;
+}
+
+.find-now {
+    width: 174px;
+    height: 52px;
+    border: 0px;
+    border-radius: 8px;
+    background: #FF5400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-txt {
+    width: 73px;
+    height: 20px;
+    color: #FFF;
+    margin-left: 5px;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.find-now img {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+
+/* banner style ends */
+/*Header style ends*/
+
+/* Main section starts */
+main {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/* Popular tour styles */
+.popular-tour-section {
+    margin-top: 5rem;
+    display: flex;
+    gap: 60px;
+}
+
+.popular-tour-title {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.popular-tour-description {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.popular-tour-description-list {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    width: 174px;
+    height: 52px;
+    border: none;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin-top: 2rem;
+}
+
+.popular-tour-image {
+    width: 90%;
+    height: 550px;
+    border-radius: 16px;
+}
+
+/* Popular tours ends */
+
+/* Destination styles*/
+.destination-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.destination-title {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-top: 5rem;
+    margin-bottom: 0px;
+}
+
+.destination-description {
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 1.5rem;
+}
+
+.mal-in {
+    display: flex;
+    gap: 20px;
+}
+
+.maldives {
+    width: 573px;
+    height: 300px;
+    border-radius: 16px;
+    background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('images/Rectangle 5.png');
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Mulish;
+    font-size: 1.75rem;
+    font-weight: 800;
+}
+
+.indonesia {
+    width: 573px;
+    height: 300px;
+    border-radius: 16px;
+    background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('images/Rectangle 8.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 1.75rem;
+    font-weight: 800;
+}
+
+.america {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 374px 474px 274px;
+    gap: 20px;
+}
+
+.srilanka {
+    height: 286px;
+    background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('images/Rectangle 6.png');
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 1.75rem;
+    font-weight: 800;
+}
+
+.north-america {
+    height: 286px;
+    background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('images/Rectangle 7.png');
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 1.75rem;
+    font-weight: 800;
+}
+
+.kashmir {
+    height: 286px;
+    background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('images/Rectangle 9.png');
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 1.75rem;
+    font-weight: 800;
+}
+
+.bengal {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.bangladesh {
+    width: 473px;
+    height: 300px;
+    background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('images/Rectangle 11.png');
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 1.75rem;
+    font-weight: 800;
+}
+
+.bandarban {
+    width: 673px;
+    height: 300px;
+    background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('images/Rectangle 10.png');
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 1.75rem;
+    font-weight: 800;
+}
+
+/* Destination styles ends*/
+
+/* Choose us style starts */
+.choose-us-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.choose-us-title {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+
+.choose-us-description {
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 24px;
+}
+
+.upper-container {
+    margin-top: 3rem;
+    display: flex;
+    gap: 20px;
+}
+
+.hotels {
+    width: 450px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 2rem;
+}
+
+.service {
+    width: 450px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 2rem;
+}
+
+.price {
+    width: 450px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    padding: 2rem;
+}
+
+.hotels-title {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.hotels-description {
+    width: 450px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.service-title {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.service-description {
+    width: 450px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+.price-title {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.price-description {
+    width: 450px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/* Choose us style ends*/
+
+/* Deals & Discounts style*/
+.discounts-section {
+    margin-top: 5rem;
+}
+
+.discount-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.discount-title {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.discount-description {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    width: 643px;
+}
+
+.discount-img-container {
+    margin-top: 2rem;
+}
+
+.img-up {
+    width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+    background: url('images/Group 39.png'), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.img-middle {
+    width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+    background: url('images/Group 40.png'), lightgray 50% / cover no-repeat;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.img-down {
+    width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+    background: url('images/Group 39.png'), lightgray 50% / cover no-repeat;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.discount-img-box {
+    width: 579px;
+    height: 389px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    margin: 50px;
+}
+
+.icon-container img {
+    width: 24px;
+    height: 24px;
+}
+
+.icon-container {
+    width: 400px;
+    padding: 20px 0;
+    margin: 0 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.img-box-content {
+    margin: 0 50px;
+}
+
+.box-title {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+
+.box-description {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.box-text {
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+
+/* Deals & Discounts ends*/
+
+/* Perfect place style starts*/
+.perfect-place-section {
+    display: flex;
+    gap: 30px;
+    margin-top: 5rem;
+}
+
+.perfect-place-title {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.perfect-place-description {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.perfect-place-list {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.perfect-place-btn {
+    margin-top: 2rem;
+    width: 174px;
+    height: 52px;
+    border: none;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+
+.perfect-place-container {
+    width: 100%;
+    height: 424px;
+    background-image: url('images/Group 40089.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.perfect-place-img-title {
+    width: 276px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+hr {
+    width: 450px;
+    height: 4px;
+    position: absolute;
+    bottom: 25px;
+    margin-left: -90px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+
+.seek {
+    width: 87px;
+    height: 4px;
+    position: absolute;
+    bottom: 33px;
+    margin-left: -90px;
+}
+
+.pause {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    bottom: 45px;
+    margin-left: -90px;
+}
+
+.timer {
+    color: #F3F3F3;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    position: absolute;
+    bottom: 34px;
+    margin-left: -50px;
+}
+
+.muted {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    bottom: 45px;
+    margin-left: 260px;
+}
+
+.full-screen {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    bottom: 45px;
+    margin-left: 300px;
+}
+
+.options {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    bottom: 45px;
+    margin-left: 340px;
+}
+
+/* Perfect place style ends*/
+
+/* Newsletter section style */
+.newsletter-section {
+    margin-top: 5rem;
+    display: flex;
+    gap: 30px;
+}
+
+.newsletter-content {
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    width: 474px;
+    height: 400px;
+    padding: 40px;
+}
+
+.newsletter-title {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.newsletter-description {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #1313181a;
+}
+
+.newsletter-input {
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    margin-top: 10px;
+    margin-bottom: 16px;
+}
+
+.newsletter-btn {
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.newsletter-img {
+    border-radius: 16px;
+    width: 100%;
+    position: relative;
+}
+
+.badge {
+    width: 280px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    border-radius: 16px;
+    background: #FF5400;
+    padding: 10px;
+    position: absolute;
+    bottom: 110px;
+    right: -30px;
+    left: 350px;
+}
+
+.badge-text {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.badge-title {
+    color: #FFF;
+    font-family: Mulish;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+/* Newsletter section style ends */
+
+/*Extra style starts*/
+.extra-section {
+    margin-top: 6rem;
+}
+
+.extra-title {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+.extra-description {
+    color: #5A5A5D;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.sponsors {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+/*Extra style ends*/
+
+/* Main section ends */
+
+/* Footer styles*/
+footer {
+    width: 100%;
+    height: 300px;
+    background: rgba(19, 19, 24, 0.05);
+    margin-top: 6rem;
+    padding: 100px 0;
+}
+
+.at-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.at-logo {
+    width: 40px;
+    height: 46.673px;
+}
+
+.footer-text {
+    color: #5A5A5D;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 760px;
+    margin: 0 auto;
+}
+
+footer img {
+    width: 24px;
+    height: 24px;
+    margin-right: 20px;
+}
+
+.social {
+    margin-top: 30px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#foot-hr {
+    width: 872px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+    margin: 0 auto;
+}
+
+.copyright {
+    color: #131318;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 60px;
+}
+
+/* Footer styles ends*/
+}
+
+/*---------- Mobile Device ---------*/
 @media screen and (max-width: 600px) {
 
     /*header style starts*/
