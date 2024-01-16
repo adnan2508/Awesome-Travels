@@ -487,6 +487,7 @@ main {
     font-size: 1rem;
     font-weight: 400;
 }
+
 /* Choose us style ends*/
 
 /* Deals & Discounts style*/
@@ -714,10 +715,68 @@ hr {
     font-weight: 800;
     margin-top: 10px;
 }
-
 /* Newsletter section style ends */
-
 /* Main section ends */
+
+/* Footer styles*/
+footer {
+    width: 100%;
+    height: 300px;
+    background: rgba(19, 19, 24, 0.05);
+    margin-top: 6rem;
+    padding: 100px 0;
+}
+
+.at-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.at-logo {
+    width: 40px;
+    height: 46.673px;
+}
+
+.footer-text {
+    color: #5A5A5D;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 760px;
+    margin: 0 auto;
+}
+
+footer img {
+    width: 24px;
+    height: 24px;
+    margin-right: 20px;
+}
+
+.social {
+    margin-top: 30px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#foot-hr {
+    width: 872px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+    margin: 0 auto;
+}
+
+.copyright {
+    color: #131318;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 60px;
+}
+/* Footer styles ends*/
+
 
 /*--------------------------------Responsive style--------------------------*/
 @media screen and (max-width: 600px) {
@@ -942,7 +1001,7 @@ hr {
     }
 
     /* Perfect place ends */
-/* Newsletter section styles */
+    /* Newsletter section styles */
     .newsletter-section {
         margin-top: 5rem;
         display: flex;
@@ -987,9 +1046,17 @@ hr {
         font-weight: 800;
         margin-top: 5px;
     }
-
     /* Newsletter section ends */
     /* Main section ends */
+
+    /* Footer style starts */
+    .footer-text {
+        width: 80%;
+    }
+    #foot-hr {
+        width: 80%;
+    }
+    /* Footer style ends */
 }
 
 /* Tab device */
@@ -1145,9 +1212,11 @@ hr {
         height: 380px;
     }
 
-    .newsletter-input, .newsletter-btn {
+    .newsletter-input,
+    .newsletter-btn {
         width: 90%;
     }
+
     .newsletter-img {
         position: relative;
         width: 100%;
@@ -1183,4 +1252,13 @@ hr {
 
     /* Newsletter section ends */
     /* Main section ends */
+
+    /* Footer style starts */
+    .footer-text {
+        width: 80%;
+    }
+    #foot-hr {
+        width: 80%;
+    }
+    /* Footer style ends */
 }
