@@ -561,11 +561,11 @@ main {
 }
 
 hr {
-    width: 562px;
+    width: 450px;
     height: 4px;
     position: absolute;
     bottom: 25px;
-    margin-left: -140px;
+    margin-left: -90px;
     border: none;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
@@ -576,7 +576,7 @@ hr {
     height: 4px;
     position: absolute;
     bottom: 33px;
-    margin-left: -140px;
+    margin-left: -90px;
 }
 
 .pause {
@@ -584,7 +584,7 @@ hr {
     height: 24px;
     position: absolute;
     bottom: 45px;
-    margin-left: -140px;
+    margin-left: -90px;
 }
 
 .timer {
@@ -595,7 +595,7 @@ hr {
     font-weight: 400;
     position: absolute;
     bottom: 34px;
-    margin-left: -100px;
+    margin-left: -50px;
 }
 
 .muted {
@@ -603,7 +603,7 @@ hr {
     height: 24px;
     position: absolute;
     bottom: 45px;
-    margin-left: 330px;
+    margin-left: 260px;
 }
 
 .full-screen {
@@ -611,7 +611,7 @@ hr {
     height: 24px;
     position: absolute;
     bottom: 45px;
-    margin-left: 370px;
+    margin-left: 300px;
 }
 
 .options {
@@ -619,7 +619,7 @@ hr {
     height: 24px;
     position: absolute;
     bottom: 45px;
-    margin-left: 400px;
+    margin-left: 340px;
 }
 
 /* Perfect place style ends*/
