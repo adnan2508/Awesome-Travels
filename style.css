@@ -487,7 +487,142 @@ main {
     font-size: 1rem;
     font-weight: 400;
 }
+
 /* Choose us style ends*/
+
+/* Deals & Discounts style*/
+/* Deals & Discounts ends*/
+
+/* Perfect place style starts*/
+.perfect-place-section {
+    display: flex;
+    gap: 30px;
+    margin-top: 5rem;
+}
+
+.perfect-place-title {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.perfect-place-description {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.perfect-place-list {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.perfect-place-btn {
+    margin-top: 2rem;
+    width: 174px;
+    height: 52px;
+    border: none;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+
+.perfect-place-container {
+    width: 100%;
+    height: 424px;
+    background-image: url('images/Group 40089.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.perfect-place-img-title {
+    width: 276px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+hr {
+    width: 562px;
+    height: 4px;
+    position: absolute;
+    bottom: 25px;
+    margin-left: -140px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+
+.seek {
+    width: 87px;
+    height: 4px;
+    position: absolute;
+    bottom: 33px;
+    margin-left: -140px;
+}
+
+.pause {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    bottom: 45px;
+    margin-left: -140px;
+}
+
+.timer {
+    color: #F3F3F3;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    position: absolute;
+    bottom: 34px;
+    margin-left: -100px;
+}
+
+.muted {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    bottom: 45px;
+    margin-left: 330px;
+}
+
+.full-screen {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    bottom: 45px;
+    margin-left: 370px;
+}
+
+.options {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    bottom: 45px;
+    margin-left: 400px;
+}
+
+/* Perfect place style ends*/
 
 /* Main section ends */
 
@@ -700,13 +835,27 @@ main {
         flex-direction: column;
         width: 70%;
     }
+
     /* Choose us style ends*/
+    /* Perfect place style */
+    .perfect-place-section {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .perfect-place-container {
+        margin-top: 20px;
+    }
+
+    /* Perfect place ends */
+
     /* Main section ends */
 }
 
 /* Tab device */
 
-@media screen and (min-width:601px) and (max-width: 991px) {
+@media screen and (min-width:601px) and (max-width: 992px) {
     header {
         width: 100%;
     }
@@ -820,15 +969,28 @@ main {
 
     /* Destination section ends */
 
-/* Choose us styles*/
+    /* Choose us styles*/
     .upper-container {
         display: flex;
         flex-direction: column;
     }
+
     .price {
         margin: 20px 0px;
     }
-/* Choose us style ends*/
+
+    /* Choose us style ends*/
+    /* Perfect place starts */
+    .perfect-place-section {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .perfect-place-container {
+        margin-top: 20px;
+    }
+    /* Perfect place ends */
 
     /* Main section ends */
 }
