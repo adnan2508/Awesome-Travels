@@ -491,6 +491,121 @@ main {
 /* Choose us style ends*/
 
 /* Deals & Discounts style*/
+.discounts-section {
+    margin-top: 5rem;
+}
+.discount-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.discount-title {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.discount-description {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    width: 643px;
+}
+
+.discount-img-container {
+    margin-top: 2rem;
+}
+
+.img-up {
+    width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+    background: url('images/Group 39.png'), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.img-middle {
+    width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+    background: url('images/Group 40.png'), lightgray 50% / cover no-repeat;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.img-down {
+    width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+    background: url('images/Group 39.png'), lightgray 50% / cover no-repeat;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.discount-img-box {
+    width: 579px;
+    height: 389px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    margin: 50px;
+}
+
+.icon-container img {
+    width: 24px;
+    height: 24px;
+}
+
+.icon-container {
+    width: 400px;
+    padding: 20px 0;
+    margin: 0 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.img-box-content {
+    margin: 0 50px;
+}
+
+.box-title {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+
+.box-description {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.box-text {
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+
 /* Deals & Discounts ends*/
 
 /* Perfect place style starts*/
@@ -1079,18 +1194,21 @@ footer img {
         font-weight: 800;
         margin-top: 5px;
     }
+
     /* Newsletter section ends */
     /* Extra section style*/
-    .sponsors{
+    .sponsors {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
         gap: 40px;
     }
+
     .sponsors img {
         width: 165px;
     }
+
     /* Extra section style ends*/
     /* Main section ends */
 
