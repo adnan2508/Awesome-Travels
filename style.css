@@ -624,6 +624,97 @@ hr {
 
 /* Perfect place style ends*/
 
+/* Newsletter section style */
+.newsletter-section {
+    margin-top: 5rem;
+    display: flex;
+    gap: 30px;
+}
+
+.newsletter-content {
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    width: 474px;
+    height: 330px;
+    padding: 40px;
+}
+
+.newsletter-title {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.newsletter-description {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.newsletter-input {
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    margin-bottom: 16px;
+}
+
+.newsletter-btn {
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.newsletter-img {
+    border-radius: 16px;
+    width: 100%;
+    position: relative;
+}
+
+.badge {
+    width: 280px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    border-radius: 16px;
+    background: #FF5400;
+    padding: 10px;
+    position: absolute;
+    bottom: 50px;
+    right: -30px;
+    left: 350px;
+}
+
+.badge-text {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.badge-title {
+    color: #FFF;
+    font-family: Mulish;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+/* Newsletter section style ends */
+
 /* Main section ends */
 
 /*--------------------------------Responsive style--------------------------*/
@@ -849,7 +940,53 @@ hr {
     }
 
     /* Perfect place ends */
+/* Newsletter section styles */
+    .newsletter-section {
+        margin-top: 5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
 
+    .newsletter-content {
+        width: 420px;
+        height: 380px;
+    }
+
+    .newsletter-img {
+        position: relative;
+        width: 100%;
+    }
+
+    .badge {
+        width: 214.023px;
+        height: 79.268px;
+        transform: rotate(-19.628deg);
+        position: absolute;
+        bottom: 37px;
+        left: 267px;
+        padding: 10px;
+    }
+
+    .badge-text {
+        margin-top: 15px;
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 15.854px;
+        font-weight: 400;
+
+    }
+
+    .badge-title {
+        color: #FFF;
+        font-family: Mulish;
+        font-size: 21.138px;
+        font-weight: 800;
+        margin-top: 5px;
+    }
+
+    /* Newsletter section ends */
     /* Main section ends */
 }
 
@@ -990,7 +1127,58 @@ hr {
     .perfect-place-container {
         margin-top: 20px;
     }
+
     /* Perfect place ends */
 
+    /* Newsletter section styles */
+    .newsletter-section {
+        margin-top: 5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .newsletter-content {
+        width: 90%;
+        height: 380px;
+    }
+
+    .newsletter-input, .newsletter-btn {
+        width: 90%;
+    }
+    .newsletter-img {
+        position: relative;
+        width: 100%;
+    }
+
+    .badge {
+        width: 214.023px;
+        height: 79.268px;
+        transform: rotate(-19.628deg);
+        position: absolute;
+        bottom: 37px;
+        left: 629px;
+        padding: 10px;
+    }
+
+    .badge-text {
+        margin-top: 15px;
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 15.854px;
+        font-weight: 400;
+
+    }
+
+    .badge-title {
+        color: #FFF;
+        font-family: Mulish;
+        font-size: 21.138px;
+        font-weight: 800;
+        margin-top: 5px;
+    }
+
+    /* Newsletter section ends */
     /* Main section ends */
 }
