@@ -494,11 +494,13 @@ main {
 .discounts-section {
     margin-top: 5rem;
 }
+
 .discount-content {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .discount-title {
     color: #131318;
     text-align: center;
@@ -1137,6 +1139,37 @@ footer img {
     }
 
     /* Choose us style ends*/
+    /* Discount section styles*/
+    .discounts-section .discount-content {
+        margin-left: 50px;
+    }
+    .discount-description {
+        width: 400px;
+    }
+    .img-up,
+    .img-middle,
+    .img-down {
+        width: 100%;
+        height: 800px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+    .discount-img-box {
+        width: 90%;
+        height: 60%;
+        margin-top: 20px;
+    }
+    .icon-container {
+        width: 70%;
+        flex-wrap: wrap;
+    }
+
+    /* Discount section styles ends*/
+
     /* Perfect place style */
     .perfect-place-section {
         display: flex;
@@ -1312,7 +1345,6 @@ footer img {
 
     .america {
         display: flex;
-        /*flex-direction: column;*/
     }
 
     .srilanka {
@@ -1351,6 +1383,37 @@ footer img {
     }
 
     /* Choose us style ends*/
+    /* Discount section styles*/
+    .discounts-section .discount-content {
+        margin-left: 50px;
+    }
+    .discount-description {
+        width: 650px;
+    }
+    .img-up,
+    .img-middle,
+    .img-down {
+        width: 100%;
+        height: 800px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+    .discount-img-box {
+        width: 90%;
+        height: 50%;
+        margin-top: 20px;
+    }
+    .icon-container {
+        width: 70%;
+        flex-wrap: wrap;
+    }
+
+    /* Discount section styles ends*/
+
     /* Perfect place starts */
     .perfect-place-section {
         display: flex;
