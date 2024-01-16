@@ -229,7 +229,9 @@ main {
 }
 
 .popular-tour-image {
-    width: 100%;
+    width: 90%;
+    height: 550px;
+    border-radius: 16px;
 }
 
 /* Popular tours ends */
@@ -414,7 +416,7 @@ main {
 }
 
 .hotels {
-    width: 573px;
+    width: 450px;
     height: 284px;
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
@@ -423,7 +425,7 @@ main {
 }
 
 .service {
-    width: 573px;
+    width: 450px;
     height: 284px;
     border-radius: 16px;
     border: 1px solid rgba(41, 206, 246, 0.20);
@@ -432,7 +434,7 @@ main {
 }
 
 .price {
-    width: 573px;
+    width: 450px;
     height: 284px;
     border-radius: 16px;
     border: 1px solid rgba(233, 68, 68, 0.20);
@@ -450,7 +452,7 @@ main {
 }
 
 .hotels-description {
-    width: 486px;
+    width: 450px;
     color: #5A5A5D;
     font-family: Mulish;
     font-size: 1rem;
@@ -465,7 +467,7 @@ main {
 }
 
 .service-description {
-    width: 486px;
+    width: 450px;
     color: #5A5A5D;
     font-family: Mulish;
     font-size: 1rem;
@@ -481,7 +483,7 @@ main {
 }
 
 .price-description {
-    width: 486px;
+    width: 450px;
     color: #5A5A5D;
     font-family: Mulish;
     font-size: 1rem;
@@ -1205,8 +1207,8 @@ footer img {
         height: 79.268px;
         transform: rotate(-19.628deg);
         position: absolute;
-        bottom: 37px;
-        left: 267px;
+        bottom: 12%;
+        left: 50%;
         padding: 10px;
     }
 
@@ -1373,9 +1375,12 @@ footer img {
     /* Destination section ends */
 
     /* Choose us styles*/
-    .upper-container {
+    
+    .upper-container, .price {
+        width: 100%;
         display: flex;
         flex-direction: column;
+        padding: 0px;
     }
 
     .price {
@@ -1455,8 +1460,8 @@ footer img {
         height: 79.268px;
         transform: rotate(-19.628deg);
         position: absolute;
-        bottom: 37px;
-        left: 629px;
+        bottom: 8%;
+        left: 68%;
         padding: 10px;
     }
 
