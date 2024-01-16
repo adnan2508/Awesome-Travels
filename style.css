@@ -715,7 +715,39 @@ hr {
     font-weight: 800;
     margin-top: 10px;
 }
+
 /* Newsletter section style ends */
+
+/*Extra style starts*/
+.extra-section {
+    margin-top: 6rem;
+}
+
+.extra-title {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+.extra-description {
+    color: #5A5A5D;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.sponsors {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+/*Extra style ends*/
+
 /* Main section ends */
 
 /* Footer styles*/
@@ -775,6 +807,7 @@ footer img {
     text-align: center;
     margin-top: 60px;
 }
+
 /* Footer styles ends*/
 
 
@@ -1047,15 +1080,29 @@ footer img {
         margin-top: 5px;
     }
     /* Newsletter section ends */
+    /* Extra section style*/
+    .sponsors{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 40px;
+    }
+    .sponsors img {
+        width: 165px;
+    }
+    /* Extra section style ends*/
     /* Main section ends */
 
     /* Footer style starts */
     .footer-text {
         width: 80%;
     }
+
     #foot-hr {
         width: 80%;
     }
+
     /* Footer style ends */
 }
 
@@ -1257,8 +1304,10 @@ footer img {
     .footer-text {
         width: 80%;
     }
+
     #foot-hr {
         width: 80%;
     }
+
     /* Footer style ends */
 }
