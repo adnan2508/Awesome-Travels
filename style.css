@@ -1977,8 +1977,12 @@ footer img {
     }
 
     .popular-tour-image {
-        max-width: 100%;
+        width: 100%;
         margin: 0 auto;
+    }
+    .popular-tour-image img {
+        width: 100%;
+        border-radius: 16px;
     }
 
     /* Popular tour ends */
