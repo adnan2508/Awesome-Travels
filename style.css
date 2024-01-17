@@ -1159,7 +1159,7 @@ main {
 
 .popular-tour-image {
     width: 90%;
-    height: 550px;
+    /*height: 550px;*/
     border-radius: 16px;
 }
 
@@ -1179,7 +1179,7 @@ main {
     font-family: Mulish;
     font-size: 2.5rem;
     font-weight: 800;
-    margin-top: 5rem;
+    margin-top: 4rem;
     margin-bottom: 0px;
 }
 
